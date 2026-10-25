@@ -1,0 +1,54 @@
+# Puntos iniciales
+PUNTOS 3
+
+# NODO RAIZ
+NODO 0 Inicio
+
+# RAMA IZQUIERDA: ATAQUE (Ataque)
+NODO 10 Ataque_I
+NODO 11 Ataque_II
+NODO 12 Ataque_III
+
+# RAMA CENTRAL: DEFENSA (Defensa)
+NODO 20 Defensa_I
+NODO 21 Defensa_II
+NODO 22 Defensa_III
+
+# RAMA DERECHA: VIDA (Vida)
+NODO 30 Vida_I
+NODO 31 Vida_II
+NODO 32 Vida_III
+
+# ESTADISTICAS
+
+
+ESTADISTICA 10 ataque 10
+ESTADISTICA 11 ataque 10
+ESTADISTICA 12 ataque 10
+
+ESTADISTICA 20 defensa 10
+ESTADISTICA 21 defensa 10
+ESTADISTICA 22 defensa 10
+
+ESTADISTICA 30 vida 10
+ESTADISTICA 31 vida 10
+ESTADISTICA 32 vida 10
+
+# CONEXIONES
+# Raíz a las 3 ramas
+ARISTA 0 10
+ARISTA 0 20
+ARISTA 0 30
+
+# Conexiones internas de cada rama
+ARISTA 10 11
+ARISTA 11 12
+
+ARISTA 20 21
+ARISTA 21 22
+
+ARISTA 30 31
+ARISTA 31 32
+
+# Nodo inicial activo
+INICIO 0
